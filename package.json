@@ -1,0 +1,28 @@
+{
+  "name": "webpack-bundle-diff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Chad Ladensack",
+    "email": "chad.ladensack@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadladensack/webpack-bundle-diff.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadladensack/webpack-bundle-diff/issues"
+  },
+  "homepage": "https://github.com/chadladensack/webpack-bundle-diff#readme",
+  "dependencies": {
+    "@actions/core": "^1.9.1",
+    "@actions/github": "^5.0.3",
+    "node-fetch": "^2.6.7",
+    "webpack-bundle-diff": "^0.5.2"
+  }
+}

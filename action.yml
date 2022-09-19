@@ -1,0 +1,20 @@
+name: "Webpack Bundle Diff"
+description: "Report on differences between webpack bundle sizes."
+branding:
+  icon: "file-text"
+  color: "white"
+inputs:
+  baselineUrl:
+    description: "URL of webpack stats file to act as the baseline"
+    required: true
+  compareUrl:
+    description: "URL of webpack stats file to compare against the base file"
+    required: true
+outputs:
+  results:
+    description: "Diff results"
+  report:
+    description: "Markdown report generated from the diff results"
+runs:
+  using: "node12"
+  main: "index.js"
